@@ -6,14 +6,10 @@ class Hello extends StatelessWidget {
     // TODO: implement build
     return Center(
         child: Text(
-          'hello',
-          textDirection: TextDirection.ltr,
-          style: TextStyle(
-              fontSize: 40.0,
-              fontWeight: FontWeight.bold,
-              color: Colors.black87
-          ),
-        )
-    );
+      'hello',
+      textDirection: TextDirection.ltr,
+      style: TextStyle(
+          fontSize: 40.0, fontWeight: FontWeight.bold, color: Colors.black87),
+    ));
   }
 }
